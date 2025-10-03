@@ -1,0 +1,14 @@
+{
+  "name": "NexOra",
+  "version": "1.0.0",
+  "description": "WhatsApp Multi-Device Bot - NexOra",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "@hapi/boom": "^10.0.1"
+  }
+}
