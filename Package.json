@@ -1,1 +1,15 @@
 
+{
+  "name": "NexOra",
+  "version": "1.0.0",
+  "description": "WhatsApp Multi-Device Bot POWERED BY SENIORITY",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
