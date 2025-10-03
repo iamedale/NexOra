@@ -1,14 +1,19 @@
 {
-  "name": "NexOra",
+  "name": "MyBot",
   "version": "1.0.0",
-  "description": "WhatsApp Multi-Device Bot - NexOra",
+  "description": "Multi-device WhatsApp Bot",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "restart": "pm2 restart MyBot",
+    "stop": "pm2 stop MyBot"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0",
-    "@hapi/boom": "^10.0.1"
+    "@whiskeysockets/baileys": "^6.7.7",
+    "pino": "^8.21.0",
+    "qrcode-terminal": "^0.12.0",
+    "dotenv": "^16.3.1",
+    "jimp": "^0.22.12"
   }
 }
