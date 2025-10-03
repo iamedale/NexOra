@@ -1,5 +1,8 @@
-export default {
-  owner: "2349160291884",   // replace with your WhatsApp number
-  prefix: ["!", "."],    // supports multiple prefixes
-  botName: "NexOra"
-}
+require("dotenv").config();
+
+module.exports = {
+  owner: process.env.OWNER_JID,
+  botName: process.env.BOT_NAME || "MyBot",
+  prefix: process.env.PREFIX || ".",
+  mode: process.env.BOT_MODE || "public", // public | private
+};
